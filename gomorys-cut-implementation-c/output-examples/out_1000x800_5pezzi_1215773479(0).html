@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Risultato taglio</title>
+<style type="text/css">body, td, div{font-family:Verdana;font-size:15px;} .text { background-color:#ffffff; margin: 4px; width: auto; font-size: 14px;}.textp { background-color:#ffffff;width: 34px; height:auto; text-align:center;font-size: 14px;}
+</style></head><body>
+<div style="width:100%; clear:both"><h1>Pezzi</h1>5 pezzi</div>
+<div style="float:left; clear:left">
+<div  style="width:452px; height:364px; float:left"><div  style="background-color: #FF0000;width:442px; height:322px;margin:5px; float:left"><div class="textp" style="margin-top: 153px; margin-left: 203px;"><b>0</b></div></div></div>
+<div  style="width:434px; height:364px; float:left"><div  style="background-color: #3300CC;width:424px; height:216px;margin:5px; float:left"><div class="textp" style="margin-top: 100px; margin-left: 194px;"><b>1</b></div></div></div>
+<div  style="width:248px; height:364px; float:left"><div  style="background-color: #339900;width:238px; height:354px;margin:5px; float:left"><div class="textp" style="margin-top: 169px; margin-left: 101px;"><b>2</b></div></div></div>
+<div  style="width:159px; height:364px; float:left"><div  style="background-color: #FFCC00;width:149px; height:140px;margin:5px; float:left"><div class="textp" style="margin-top: 62px; margin-left: 56px;"><b>3</b></div></div></div>
+<div  style="width:256px; height:364px; float:left"><div  style="background-color: #CCCCCC;width:246px; height:128px;margin:5px; float:left"><div class="textp" style="margin-top: 56px; margin-left: 105px;"><b>4</b></div></div></div>
+
+</div>
+<div style="float:left; clear:left"><table border="1"><tr><th>PEZZO</th><th>L</th><th>H</th><th>A</th><th>V</th></tr>
+<tr>
+<td  style="background-color: #FF0000"><b>0</b></td><td>553</td><td>403</td><td>222859</td><td>250969</td></tr>
+<tr>
+<td  style="background-color: #3300CC"><b>1</b></td><td>530</td><td>270</td><td>143100</td><td>272551</td></tr>
+<tr>
+<td  style="background-color: #339900"><b>2</b></td><td>297</td><td>442</td><td>131274</td><td>238969</td></tr>
+<tr>
+<td  style="background-color: #FFCC00"><b>3</b></td><td>186</td><td>175</td><td>32550</td><td>30683</td></tr>
+<tr>
+<td  style="background-color: #CCCCCC"><b>4</b></td><td>308</td><td>160</td><td>49280</td><td>50013</td></tr>
+
+</table></div>
+<div style="width:100%; clear:both;">
+<h1>Tagli</h1>Piano: L=<b>1000</b> H=<b>800</b><br>Profitto totale: <b>1356957</b><br>Tempo di esecuzione <b>1640 ms</b><br>Area scarti: <b>43052</b><br>Riga di comando: --l 1000 --h 800 --m 5 --p 553 403 250969 530 270 272551 297 442 238969 186 175 30683 308 160 50013 </div>
+
+
+<div style="width:100%; clear:both; ">
+<br><b>SEQUENZA TAGLI: </b><br><pre style="font-size:10px">TAGLIO VERT in pos A=442
+SOPRA
+{
+ TAGLIO ORIZZ in pos B=270
+ SOTTO
+ {
+  TAGLIO VERT in pos A=530
+  SOPRA
+  {
+    [SCARTO]
+  }
+  SX
+  {
+    [PEZZO 1]
+  }
+ }
+ SOPRA
+ { 
+  TAGLIO VERT in pos A=270
+  SOPRA
+  {
+   TAGLIO VERT in pos A=270
+   SOPRA
+   {
+     [SCARTO]
+   }
+   SX
+   {
+     [PEZZO 6]
+   }
+  }
+  SX
+  {
+    [PEZZO 6]
+  }
+ }
+}
+SX
+{
+ TAGLIO ORIZZ in pos B=175
+ SOTTO
+ {
+  TAGLIO VERT in pos A=186
+  SOPRA
+  {
+   TAGLIO VERT in pos A=186
+   SOPRA
+   {
+     [SCARTO]
+   }
+   SX
+   {
+     [PEZZO 3]
+   }
+  }
+  SX
+  {
+    [PEZZO 3]
+  }
+ }
+ SOPRA
+ { 
+  TAGLIO ORIZZ in pos B=297
+  SOTTO
+  {
+    [PEZZO 7]
+  }
+  SOPRA
+  {  
+   TAGLIO ORIZZ in pos B=297
+   SOTTO
+   {
+     [PEZZO 7]
+   }
+   SOPRA
+   {   
+     [SCARTO]
+   }
+  }
+ }
+}
+</pre></div><div style="width:800px; height:640px; border:#000000 2px solid; position:absolute; margin: 10px 0px 20px 0px ; " >
+  <!-- TAGLIO VERT SX -->
+<div style="width:354px;height:640px; position:absolute; overflow: hidden; bottom:0px; left:0px; border-right:#000000 1px solid;  z-index: 1;">
+   <!-- TAGLIO ORIZZ SOTTO -->
+<div style="width:354px;height:140px; position:absolute;overflow: hidden; bottom:0px; left:0px; border-top:#000000 0px solid; z-index: -1081955704;">
+   <!-- TAGLIO VERT SX -->
+<div style="width:149px;height:140px; position:absolute; overflow: hidden; bottom:0px; left:0px; border-right:#000000 1px solid;  z-index: 3;">
+   <!-- PEZZO 3 -->
+<div style="background-color: #FFCC00; width:149px; height:140px; position:absolute; overflow: hidden; bottom:0px; left:0px;z-index:1;"><div class="textp" style="margin-top: 62px; margin-left: 56px;"><b>3</b></div></div>
+
+</div>
+<!-- TAGLIO VERT DX -->
+<div style="width:205px;height:140px; position:absolute;overflow: hidden; left:149px; bottom:0px; border-left:#000000 1px solid; z-index: 4;">
+   <!-- TAGLIO VERT SX -->
+<div style="width:149px;height:140px; position:absolute; overflow: hidden; bottom:0px; left:0px; border-right:#000000 1px solid;  z-index: 5;">
+   <!-- PEZZO 3 -->
+<div style="background-color: #FFCC00; width:149px; height:140px; position:absolute; overflow: hidden; bottom:0px; left:0px;z-index:1;"><div class="textp" style="margin-top: 62px; margin-left: 56px;"><b>3</b></div></div>
+
+</div>
+<!-- TAGLIO VERT DX -->
+<div style="width:56px;height:140px; position:absolute;overflow: hidden; left:149px; bottom:0px; border-left:#000000 1px solid; z-index: 6;">
+   <!-- SCARTO -->
+<div style="background-color: #ffffff; width:56px; height:140px; position:absolute;overflow: hidden; bottom:0px; left:0px;z-index:1;"></div>
+</div>
+</div>
+
+</div>
+<!-- TAGLIO ORIZZ SOPRA-->
+
+<div style="width:354px;height:500px; position:absolute; overflow: hidden; left:0px; bottom:140px; border-bottom:#000000 1px solid; z-index: 7;">
+   <!-- TAGLIO ORIZZ SOTTO -->
+<div style="width:354px;height:238px; position:absolute;overflow: hidden; bottom:0px; left:0px; border-top:#000000 0px solid; z-index: -1081955768;">
+   <!-- PEZZO 2 -->
+<div style="background-color: #339900; width:354px; height:238px; position:absolute; overflow: hidden; bottom:0px; left:0px;z-index:1;"><div class="textp" style="margin-top: 111px; margin-left: 159px;"><b>2</b></div></div>
+
+</div>
+<!-- TAGLIO ORIZZ SOPRA-->
+
+<div style="width:354px;height:262px; position:absolute; overflow: hidden; left:0px; bottom:238px; border-bottom:#000000 1px solid; z-index: 9;">
+   <!-- TAGLIO ORIZZ SOTTO -->
+<div style="width:354px;height:238px; position:absolute;overflow: hidden; bottom:0px; left:0px; border-top:#000000 0px solid; z-index: -1081955832;">
+   <!-- PEZZO 2 -->
+<div style="background-color: #339900; width:354px; height:238px; position:absolute; overflow: hidden; bottom:0px; left:0px;z-index:1;"><div class="textp" style="margin-top: 111px; margin-left: 159px;"><b>2</b></div></div>
+
+</div>
+<!-- TAGLIO ORIZZ SOPRA-->
+
+<div style="width:354px;height:25px; position:absolute; overflow: hidden; left:0px; bottom:238px; border-bottom:#000000 1px solid; z-index: 11;">
+   <!-- SCARTO -->
+<div style="background-color: #ffffff; width:354px; height:25px; position:absolute;overflow: hidden; bottom:0px; left:0px;z-index:1;"></div>
+</div>
+<!-- FINE TAGLIO ORIZZ -->
+
+</div>
+<!-- FINE TAGLIO ORIZZ -->
+
+</div>
+<!-- FINE TAGLIO ORIZZ -->
+
+
+</div>
+<!-- TAGLIO VERT DX -->
+<div style="width:446px;height:640px; position:absolute;overflow: hidden; left:354px; bottom:0px; border-left:#000000 1px solid; z-index: 12;">
+   <!-- TAGLIO ORIZZ SOTTO -->
+<div style="width:446px;height:216px; position:absolute;overflow: hidden; bottom:0px; left:0px; border-top:#000000 0px solid; z-index: -1081955704;">
+   <!-- TAGLIO VERT SX -->
+<div style="width:424px;height:216px; position:absolute; overflow: hidden; bottom:0px; left:0px; border-right:#000000 1px solid;  z-index: 14;">
+   <!-- PEZZO 1 -->
+<div style="background-color: #3300CC; width:424px; height:216px; position:absolute; overflow: hidden; bottom:0px; left:0px;z-index:1;"><div class="textp" style="margin-top: 100px; margin-left: 194px;"><b>1</b></div></div>
+
+</div>
+<!-- TAGLIO VERT DX -->
+<div style="width:22px;height:216px; position:absolute;overflow: hidden; left:424px; bottom:0px; border-left:#000000 1px solid; z-index: 15;">
+   <!-- SCARTO -->
+<div style="background-color: #ffffff; width:22px; height:216px; position:absolute;overflow: hidden; bottom:0px; left:0px;z-index:1;"></div>
+</div>
+
+</div>
+<!-- TAGLIO ORIZZ SOPRA-->
+
+<div style="width:446px;height:424px; position:absolute; overflow: hidden; left:0px; bottom:216px; border-bottom:#000000 1px solid; z-index: 16;">
+   <!-- TAGLIO VERT SX -->
+<div style="width:216px;height:424px; position:absolute; overflow: hidden; bottom:0px; left:0px; border-right:#000000 1px solid;  z-index: 17;">
+   <!-- PEZZO 1 -->
+<div style="background-color: #3300CC; width:216px; height:424px; position:absolute; overflow: hidden; bottom:0px; left:0px;z-index:1;"><div class="textp" style="margin-top: 204px; margin-left: 90px;"><b>1</b></div></div>
+
+</div>
+<!-- TAGLIO VERT DX -->
+<div style="width:230px;height:424px; position:absolute;overflow: hidden; left:216px; bottom:0px; border-left:#000000 1px solid; z-index: 18;">
+   <!-- TAGLIO VERT SX -->
+<div style="width:216px;height:424px; position:absolute; overflow: hidden; bottom:0px; left:0px; border-right:#000000 1px solid;  z-index: 19;">
+   <!-- PEZZO 1 -->
+<div style="background-color: #3300CC; width:216px; height:424px; position:absolute; overflow: hidden; bottom:0px; left:0px;z-index:1;"><div class="textp" style="margin-top: 204px; margin-left: 90px;"><b>1</b></div></div>
+
+</div>
+<!-- TAGLIO VERT DX -->
+<div style="width:14px;height:424px; position:absolute;overflow: hidden; left:216px; bottom:0px; border-left:#000000 1px solid; z-index: 20;">
+   <!-- SCARTO -->
+<div style="background-color: #ffffff; width:14px; height:424px; position:absolute;overflow: hidden; bottom:0px; left:0px;z-index:1;"></div>
+</div>
+</div>
+</div>
+<!-- FINE TAGLIO ORIZZ -->
+
+</div>
+</div>
+
+</body>
+</html>
